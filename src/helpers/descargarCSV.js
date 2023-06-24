@@ -2,6 +2,8 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
 
+console.log('Directorio raiz:', __dirname);
+
 const directoryPath = __dirname + '/src/db'
 const donwloadPath = path.join(__dirname);
 const chromiumPath = __dirname + 'node_modules/chromium/lib/chromium/chrome-win/chrome.exe';
