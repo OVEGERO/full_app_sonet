@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const directoryPath = path.join(__dirname, 'src', 'db');
+const directoryPath = '/app/src/db'
 const filenamePart = 'SmartOLT_onus_list';
 
 const cargarData = async () => {
