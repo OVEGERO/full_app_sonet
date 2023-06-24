@@ -2,9 +2,9 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
 
-const directoryPath = path.join(__dirname, 'src', 'db');
+const directoryPath = __dirname + '/src/db'
 const donwloadPath = path.join(__dirname);
-const chromiumPath = path.join(__dirname, 'node_modules', 'chromium', 'lib', 'chromium', 'chrome-win', 'chrome.exe');
+const chromiumPath = __dirname + 'node_modules/chromium/lib/chromium/chrome-win/chrome.exe';
 
 const descargarCSV = async () => {
     try {
