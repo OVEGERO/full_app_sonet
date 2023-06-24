@@ -6,7 +6,7 @@ console.log('Directorio raiz:', __dirname);
 
 const directoryPath = '/app/src/db'
 const donwloadPath = '/app';
-const chromiumPath = '/app/node_modules/chromium/lib/chromium/chrome-win/chrome.exe';
+const chromiumPath = '/app/node_modules/chromium/lib/chromium/chrome-linux/chrome';
 
 const descargarCSV = async () => {
     try {
